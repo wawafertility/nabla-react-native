@@ -1,6 +1,3 @@
-source 'https://github.com/CocoaPods/Specs'
-source 'https://github.com/wawafertility/pods-spec'
-
 require 'json'
 
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
