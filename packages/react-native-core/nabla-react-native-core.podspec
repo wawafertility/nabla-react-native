@@ -1,3 +1,6 @@
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/wawafertility/pods-spec'
+
 require 'json'
 
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
@@ -16,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/Sources/**/*.{h,m,swift}"
 
   s.dependency 'React-Core'
-  s.dependency 'NablaCore', '1.1.4'
+  s.dependency 'NablaCore', '2.0.0'
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files= "ios/Tests/**/*.{h,m,swift}"
