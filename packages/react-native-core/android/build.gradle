@@ -35,6 +35,12 @@ android {
     }
 }
 
+sourceControl {
+    gitRepository("https://github.com/wawafertility/rn-nabla-android.git") {
+        producesModule("com.nabla.nabla-android:core:1.1.3")
+    }
+}
+
 repositories {
     google()
     mavenCentral()

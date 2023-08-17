@@ -40,6 +40,12 @@ repositories {
     mavenCentral()
 }
 
+sourceControl {
+    gitRepository("https://github.com/wawafertility/rn-nabla-android.git") {
+        producesModule("com.nabla.nabla-android:scheduling:1.1.3")
+    }
+}
+
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'
