@@ -48,5 +48,5 @@ dependencies {
     implementation 'androidx.fragment:fragment-ktx:1.5.5'
     implementation 'androidx.lifecycle:lifecycle-common:2.5.1'
 
-    implementation 'com.github.wawafertility:rn-nabla-android:scheduling-ui:1.1.3'
+    implementation 'com.github.wawafertility.rn-nabla-android:scheduling-ui:1.1.3'
 }
