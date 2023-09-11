@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.dependency 'nabla-react-native-messaging-core'
 
   # s.dependency 'NablaMessagingUI', '2.0.0'
-  s.dependency 'NablaMessagingUI', :git => 'https://github.com/wawafertility/rn-nabla-ios.git', :tag => "#{spec.version}"
+  s.dependency 'NablaMessagingUI', :git => 'https://github.com/wawafertility/rn-nabla-ios.git', :tag => "#{s.version}"
 end
