@@ -58,7 +58,7 @@ export class NablaClient {
    */
   public async initialize(
     configuration: Configuration,
-    provideAuthTokens: (userId: String) => Promise<AuthTokens>,
+    provideAuthTokens: (userId: string) => Promise<AuthTokens>,
     networkConfiguration: NetworkConfiguration | undefined = undefined,
     logger: Logger = new ConsoleLogger(),
   ) {
@@ -67,7 +67,7 @@ export class NablaClient {
     this.needProvideTokensSubscription?.remove();
     this.needProvideTokensSubscription = emitter.addListener(
       'needProvideTokens',
-      async (data: { userId: String }) => {
+      async (data: { userId: string }) => {
         const authTokens = await provideAuthTokens(data.userId);
         nablaClientModule.provideTokens(
           authTokens.refreshToken,

@@ -1,0 +1,1 @@
+{"version":3,"file":"ProviderInConversation.js","sourceRoot":"","sources":["../../src/types/ProviderInConversation.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,sBAAsB;IAKjC,YAAY,QAAkB,EAAE,QAAe,EAAE,SAAgB;QAC/D,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAC;QACzB,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAC;QACzB,IAAI,CAAC,SAAS,GAAG,SAAS,CAAC;IAC7B,CAAC;CACF"}

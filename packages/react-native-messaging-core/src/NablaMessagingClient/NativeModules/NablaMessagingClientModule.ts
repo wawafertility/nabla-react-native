@@ -12,15 +12,15 @@ interface NablaMessagingClientModule extends NativeModule {
   initializeMessagingModule(): Promise<void>;
 
   startConversation(
-    title: String | undefined,
-    providerIds: String[] | undefined,
+    title: string | undefined,
+    providerIds: string[] | undefined,
     callback: Callback<ConversationId>,
   ): void;
 
   createConversation(
     messageInput: any,
-    title: String | undefined,
-    providerIds: String[] | undefined,
+    title: string | undefined,
+    providerIds: string[] | undefined,
     callback: Callback<ConversationId>,
   ): void;
 
