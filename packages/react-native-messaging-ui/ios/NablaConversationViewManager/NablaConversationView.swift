@@ -1,8 +1,8 @@
 import Foundation
-import NablaCore
-import NablaMessagingCore
+import NablaCoreFork
+import NablaMessagingCoreFork
 import nabla_react_native_messaging_core
-import NablaMessagingUI
+import NablaMessagingUIFork
 import UIKit
 
 final class NablaConversationView: UIView {

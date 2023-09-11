@@ -1,5 +1,5 @@
 import Foundation
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 extension ConversationMessageSender {
     var dictionaryRepresentation: [String: Any] {

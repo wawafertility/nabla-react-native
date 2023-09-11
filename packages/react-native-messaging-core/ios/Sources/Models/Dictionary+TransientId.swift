@@ -1,6 +1,6 @@
 import Foundation
-import NablaMessagingCore
-import NablaCore
+import NablaMessagingCoreFork
+import NablaCoreFork
 
 extension Dictionary where Key == String, Value: Any {
     public var asConversationId: ConversationId? {

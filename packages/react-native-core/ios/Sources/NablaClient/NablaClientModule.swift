@@ -1,5 +1,5 @@
 import Foundation
-import NablaCore
+import NablaCoreFork
 
 struct NetworkConfiguration: NablaCore.NetworkConfiguration {
     let domain: String

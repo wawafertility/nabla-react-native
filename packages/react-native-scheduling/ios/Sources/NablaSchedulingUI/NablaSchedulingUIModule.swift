@@ -1,6 +1,6 @@
 import Foundation
-import NablaCore
-import NablaScheduling
+import NablaCoreFork
+import NablaSchedulingFork
 import nabla_react_native_core
 import React
 

@@ -1,5 +1,5 @@
 import Foundation
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 extension MaybeProvider {
     var dictionaryRepresentation: [String: Any] {

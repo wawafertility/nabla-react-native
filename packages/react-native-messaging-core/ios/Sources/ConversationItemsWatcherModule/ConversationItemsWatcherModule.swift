@@ -1,7 +1,7 @@
 import Combine
 import Foundation
-import NablaCore
-import NablaMessagingCore
+import NablaCoreFork
+import NablaMessagingCoreFork
 import nabla_react_native_core
 
 @objc(ConversationItemsWatcherModule)

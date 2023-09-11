@@ -1,5 +1,5 @@
 import Foundation
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 extension VideoCallRoomInteractiveMessage.Status {
     var dictionaryRepresentation: [String: Any] {

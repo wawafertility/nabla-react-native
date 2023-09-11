@@ -1,7 +1,7 @@
 import Foundation
-import NablaCore
-import NablaMessagingCore
-import NablaMessagingUI
+import NablaCoreFork
+import NablaMessagingCoreFork
+import NablaMessagingUIFork
 import UIKit
 
 final class ConversationListViewWrapper: UIView {

@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'React-Core'
   s.dependency 'nabla-react-native-core'
-  # s.dependency 'NablaScheduling', '2.0.0'
-  s.dependency 'NablaScheduling', :git => 'https://github.com/wawafertility/rn-nabla-ios.git', :tag => "#{s.version}"
+  s.dependency 'NablaSchedulingFork', '2.0.2'
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files= "ios/Tests/**/*.{h,m,swift}"

@@ -1,6 +1,6 @@
 import Foundation
-import NablaCore
-import NablaScheduling
+import NablaCoreFork
+import NablaSchedulingFork
 import UIKit
 
 final class NablaAppointmentListView: UIView {

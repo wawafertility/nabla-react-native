@@ -1,4 +1,4 @@
-import NablaCore
+import NablaCoreFork
 
 private enum Constants {
     static let codeKey = "code"

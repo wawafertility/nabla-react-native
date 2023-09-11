@@ -1,5 +1,5 @@
 import Foundation
-import NablaScheduling
+import NablaSchedulingFork
 
 extension Location {
     var dictionaryRepresentation: [String: Any] {

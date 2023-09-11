@@ -1,6 +1,6 @@
 import Foundation
-import NablaCore
-import NablaMessagingCore
+import NablaCoreFork
+import NablaMessagingCoreFork
 
 extension PaginatedList where Element == ConversationItem {
     var dictionaryRepresentation: [String: Any] {

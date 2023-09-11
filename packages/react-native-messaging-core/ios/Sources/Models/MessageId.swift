@@ -1,4 +1,4 @@
 import Foundation
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 public typealias MessageId = UUID

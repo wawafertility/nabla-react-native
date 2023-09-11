@@ -1,6 +1,6 @@
 {
   "name": "@nabla/react-native-messaging-ui",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Nabla Messaging UI SDK",
   "repository": "https://github.com/nabla/nabla-react-native",
   "main": "lib/index.js",

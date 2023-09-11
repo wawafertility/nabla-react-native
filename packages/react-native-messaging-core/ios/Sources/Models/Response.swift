@@ -1,5 +1,5 @@
 import Foundation
-import NablaCore
+import NablaCoreFork
 
 extension RefreshingState {
     var dictionaryRepresentation: [String: Any] {

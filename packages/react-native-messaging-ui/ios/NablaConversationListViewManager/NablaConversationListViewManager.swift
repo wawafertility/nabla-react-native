@@ -1,6 +1,6 @@
 import Foundation
-import NablaMessagingCore
-import NablaMessagingUI
+import NablaMessagingCoreFork
+import NablaMessagingUIFork
 
 @objc(NablaConversationListViewManager)
 class NablaConversationListViewManager: RCTViewManager {

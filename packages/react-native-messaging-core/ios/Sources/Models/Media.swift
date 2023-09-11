@@ -1,5 +1,5 @@
 import Foundation
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 extension MediaSize {
     var dictionaryRepresentation: [String: Any] {

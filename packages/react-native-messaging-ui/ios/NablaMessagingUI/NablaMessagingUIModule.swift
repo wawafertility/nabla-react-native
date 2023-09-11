@@ -1,7 +1,7 @@
 import Foundation
-import NablaCore
-import NablaMessagingCore
-import NablaMessagingUI
+import NablaCoreFork
+import NablaMessagingCoreFork
+import NablaMessagingUIFork
 import nabla_react_native_core
 import nabla_react_native_messaging_core
 import UIKit

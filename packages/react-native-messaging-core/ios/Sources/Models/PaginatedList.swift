@@ -1,5 +1,5 @@
 import Foundation
-import NablaCore
+import NablaCoreFork
 
 extension PaginatedList {
     func dictionaryRepresentation(

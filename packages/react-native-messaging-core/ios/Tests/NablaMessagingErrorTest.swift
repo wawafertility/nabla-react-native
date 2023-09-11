@@ -1,5 +1,5 @@
 import XCTest
-@testable import NablaMessagingCore
+@testable import NablaMessagingCoreFork
 @testable import nabla_react_native_messaging_core
 
 final class NablaMessagingErrorTest: XCTestCase {

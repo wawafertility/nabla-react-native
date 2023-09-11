@@ -1,5 +1,5 @@
 import XCTest
-@testable import NablaCore
+@testable import NablaCoreFork
 @testable import nabla_react_native_core
 
 final class NablaErrorTest: XCTestCase {

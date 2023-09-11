@@ -1,6 +1,6 @@
 {
   "name": "@nabla/react-native-scheduling",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Nabla Scheduling SDK",
   "repository": "https://github.com/nabla/nabla-react-native",
   "main": "lib/index.js",

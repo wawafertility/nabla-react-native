@@ -1,6 +1,6 @@
-import NablaCore
+import NablaCoreFork
 import nabla_react_native_core
-import NablaMessagingCore
+import NablaMessagingCoreFork
 
 private enum Constants {
     static let codeKey = "code"
