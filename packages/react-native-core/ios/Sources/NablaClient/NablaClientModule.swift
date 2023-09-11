@@ -1,7 +1,7 @@
 import Foundation
 import NablaCoreFork
 
-struct NetworkConfiguration: NablaCore.NetworkConfiguration {
+struct NetworkConfiguration: NablaCoreFork.NetworkConfiguration {
     let domain: String
     let scheme: String
     let port: Int?

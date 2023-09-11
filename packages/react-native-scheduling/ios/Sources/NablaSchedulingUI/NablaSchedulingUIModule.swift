@@ -102,7 +102,7 @@ extension NablaSchedulingUIModule: AppointmentDetailsDelegate {
 }
 
 extension NablaSchedulingUIModule: ScheduleAppointmentDelegate {
-    func scheduleAppointmentDidSucceed(with appointment: NablaScheduling.Appointment) {
+    func scheduleAppointmentDidSucceed(with appointment: NablaSchedulingFork.Appointment) {
         Self.applicationRootViewController?.dismiss(animated: true)
     }
 

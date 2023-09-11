@@ -22,7 +22,7 @@ public final class CoreLogger {
     private init() {}
 }
 
-extension CoreLogger: NablaCore.Logger {
+extension CoreLogger: NablaCoreFork.Logger {
 
     public func debug(message: @autoclosure () -> String, error: Error?, extra: [String: Any]) {
         if logLevel.isAtLeast(.debug) {
