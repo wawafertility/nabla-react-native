@@ -1,6 +1,6 @@
 import Foundation
 import NablaCore
-import NablaVideoCall
+import NablaVideoCallFork
 import nabla_react_native_core
 
 @objc(NablaVideoCallClientModule)

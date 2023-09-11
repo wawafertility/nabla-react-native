@@ -18,8 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'React-Core'
   s.dependency 'nabla-react-native-core'
   
-  # s.dependency 'NablaVideoCall', '2.0.0'
-  s.dependency 'NablaVideoCall', :git => 'https://github.com/wawafertility/rn-nabla-ios.git', :tag => "#{s.version}"
+  s.dependency 'NablaVideoCallFork', '2.0.2'
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files= "ios/Tests/**/*.{h,m,swift}"
