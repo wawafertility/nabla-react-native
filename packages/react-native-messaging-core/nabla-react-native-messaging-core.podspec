@@ -12,12 +12,13 @@ Pod::Spec.new do |s|
   s.homepage     = package['repository']
   s.platform     = :ios, "13.0"
 
-  s.source       = { :git => "https://github.com/wawafertility/pods-spec.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/wawafertility/nabla-react-native.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/Sources/**/*.{h,m,swift}"
 
   s.dependency 'React-Core'
   s.dependency 'nabla-react-native-core'
-  s.dependency 'NablaMessagingCore', '2.0.0'
+  # s.dependency 'NablaMessagingCore', '2.0.0'
+  s.dependency 'NablaMessagingCore', :git => 'https://github.com/wawafertility/rn-nabla-ios.git', :tag => "#{spec.version}"
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files= "ios/Tests/**/*.{h,m,swift}"
