@@ -43,6 +43,6 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.github.wawafertility.rn-nabla-android:core:1.1.3'
+    implementation 'com.github.wawafertility.rn-nabla-android:core:1.1.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
 }
