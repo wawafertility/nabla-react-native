@@ -46,5 +46,5 @@ dependencies {
 
     implementation project(path: ':nabla_react-native-core')
 
-    implementation 'com.github.wawafertility.rn-nabla-android:video-call:1.1.3'
+    implementation 'com.github.wawafertility.rn-nabla-android:video-call:main-SNAPSHOT'
 }
