@@ -7,6 +7,7 @@ struct NetworkConfiguration: NablaCoreFork.NetworkConfiguration {
     let port: Int?
     let path: String
     let session: URLSession = .shared
+    let webSocketUrl: URL?
 }
 
 public enum NablaModules {
@@ -37,13 +38,15 @@ final class NablaClientModule: RCTEventEmitter {
         if let networkConfiguration = networkConfiguration,
            let scheme = networkConfiguration["scheme"] as? String,
            let domain = networkConfiguration["domain"] as? String,
+           let webSocketUrl = networkConfiguration["webSocketUrl"] as? URL,
            let path = networkConfiguration["path"] as? String {
 
             configuration.network = NetworkConfiguration(
                 domain: domain,
                 scheme: scheme,
                 port: networkConfiguration["port"] as? Int,
-                path: path
+                path: path,
+                webSocketUrl: webSocketUrl
             )
 
         }

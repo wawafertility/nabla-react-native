@@ -44,12 +44,13 @@ class NablaClientModule(
             val domain = networkConfiguration.getString("domain")
             val path = networkConfiguration.getString("path")
             val port = networkConfiguration.getInt("port")
+            val webSocketUrl = networkConfiguration.getString("webSocketUrl")
 
             if (scheme != null && domain != null && path != null) {
                 val baseUrl =
                     if (port != 0) "$scheme://$domain:$port$path" else "$scheme://$domain$path"
 
-                configuration.networkConfiguration = NetworkConfiguration(baseUrl = baseUrl)
+                configuration.networkConfiguration = NetworkConfiguration(baseUrl = baseUrl, webSocketUrl = webSocketUrl)
             }
         }
 
