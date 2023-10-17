@@ -3,5 +3,6 @@ export declare class NetworkConfiguration {
     domain: string;
     port?: number;
     path: string;
-    constructor(scheme: string, domain: string, path: string, port?: number);
+    webSocketUrl?: string;
+    constructor(scheme: string, domain: string, path: string, port?: number, webSocketUrl?: string);
 }
