@@ -34,7 +34,7 @@ class NablaClientModule(
         networkConfiguration: ReadableMap?,
         promise: Promise,
     ) {
-        val configuration = Configuration(
+        var configuration = Configuration(
             publicApiKey = apiKey,
             logger = CoreLogger,
             enableReporting = enableReporting
