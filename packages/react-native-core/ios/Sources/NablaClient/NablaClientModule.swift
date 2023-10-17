@@ -41,17 +41,12 @@ final class NablaClientModule: RCTEventEmitter {
            let webSocketUrl = networkConfiguration["webSocketUrl"] as? String,
            let path = networkConfiguration["path"] as? String {
 
-            var wss: URL?
-            if let webSocketUrl = webSocketUrl {
-                wss = URL(string: webSocketUrl)
-            }
-            
-            configuration.network = NablaNetworkConfiguration(
+            configuration.network = NetworkConfiguration(
                 domain: domain,
                 scheme: scheme,
                 port: networkConfiguration["port"] as? Int,
                 path: path,
-                webSocketUrl: wss
+                webSocketUrl: URL(string: webSocketUrl)
             )
 
         }
