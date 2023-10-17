@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.dependency 'React-Core'
   s.dependency 'nabla-react-native-messaging-core'
 
-  s.dependency 'NablaMessagingUIFork', '2.0.2'
+  s.dependency 'NablaMessagingUIFork', '2.0.3'
 end
