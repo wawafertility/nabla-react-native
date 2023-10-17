@@ -1,22 +1,13 @@
 import Foundation
 import NablaCoreFork
 
-public protocol OverwrittenNetworkConfiguration {
-    var domain: String { get }
-    var scheme: String { get }
-    var port: Int? { get }
-    var path: String { get }
-    var session: URLSession { get }
-    var webSocketUrl: String? { get }
-}
-
-struct NetworkConfiguration: OverwrittenNetworkConfiguration {
+struct NetworkConfiguration: NablaCoreFork.NetworkConfiguration {
     let domain: String
     let scheme: String
     let port: Int?
     let path: String
     let session: URLSession = .shared
-    let webSocketUrl: String?
+    let webSocketUrl: URL?
 }
 
 public enum NablaModules {
@@ -50,12 +41,17 @@ final class NablaClientModule: RCTEventEmitter {
            let webSocketUrl = networkConfiguration["webSocketUrl"] as? String,
            let path = networkConfiguration["path"] as? String {
 
-            configuration.network = NablaCoreFork.NetworkConfiguration(
+            var wss: URL?
+            if let webSocketUrl = webSocketUrl {
+                wss = URL(string: webSocketUrl)
+            }
+            
+            configuration.network = NablaNetworkConfiguration(
                 domain: domain,
                 scheme: scheme,
                 port: networkConfiguration["port"] as? Int,
                 path: path,
-                webSocketUrl: URL.init(webSocketUrl)
+                webSocketUrl: wss
             )
 
         }
