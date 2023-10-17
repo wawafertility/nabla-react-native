@@ -3,14 +3,14 @@ export class NetworkConfiguration {
   domain: string;
   port?: number;
   path: string;
-  webSocketUrl?: string;
+  webSocketUrl: string;
 
   constructor(
     scheme: string,
     domain: string,
     path: string,
+    webSocketUrl: string,
     port?: number,
-    webSocketUrl?: string,
   ) {
     this.scheme = scheme;
     this.domain = domain;

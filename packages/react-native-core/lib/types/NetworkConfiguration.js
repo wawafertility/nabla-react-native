@@ -1,5 +1,5 @@
 export class NetworkConfiguration {
-    constructor(scheme, domain, path, port, webSocketUrl) {
+    constructor(scheme, domain, path, webSocketUrl, port) {
         this.scheme = scheme;
         this.domain = domain;
         this.port = port;
