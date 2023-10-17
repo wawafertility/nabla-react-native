@@ -1,6 +1,6 @@
 {
   "name": "@nabla/react-native-scheduling",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Nabla Scheduling SDK",
   "repository": "https://github.com/nabla/nabla-react-native",
   "main": "lib/index.js",
@@ -26,7 +26,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nabla/react-native-core": "https://gitpkg.now.sh/wawafertility/nabla-react-native/packages/react-native-core?main"
+    "@nabla/react-native-core": "https://gitpkg.now.sh/wawafertility/nabla-react-native/packages/react-native-core?2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
